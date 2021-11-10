@@ -1,0 +1,25 @@
+5 pages
+http://patti-bee.dcccd.edu/imed1416/wuthisoonthornlert/index.html
+http://patti-bee.dcccd.edu/imed1416/wuthisoonthornlert/recipes/entree/thaibasilchicken.html
+http://patti-bee.dcccd.edu/imed1416/wuthisoonthornlert/recipes/entree/thaicoconut.html
+http://patti-bee.dcccd.edu/imed1416/wuthisoonthornlert/technique.html#method
+http://patti-bee.dcccd.edu/imed1416/wuthisoonthornlert/contact.html
+
+Already validated and no error found for all html and CSS files
+
+flex
+- for navigation tab in every pages
+- Entrees section in index page
+- code in style.css file
+
+transition
+- when push the navigation buttons
+- for entrees image movement in index page
+- code in style.css file
+
+transform
+- for entrees image in index page (in style.css)
+- for image in technique page (embedded style)
+
+keyframe animation
+- in technique page (embedded style)

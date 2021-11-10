@@ -1,0 +1,206 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+.logo {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    width: 200px;
+    height: 100px;
+}
+
+header, body {
+    font-family: times, georgia, sans-serif;
+    font-weight: 600;
+    margin: 6% 0;
+    color: black;
+}
+
+header {
+    text-align: center;
+    font-size: larger;
+}
+body {
+    background-color: azure;
+    background-image: url(../images/background.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+h1, h2, #topnav, #instruction, #ingredient, #method {
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: .05em;
+    color: midnightblue;
+}
+
+nav ul {
+    margin: 0%;
+	padding: 0%;
+	list-style-type: none;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	justify-content: center;
+    align-items:flex-start;
+    flex: auto;
+}
+
+nav ul li a {
+	display: block;
+	border: 1px solid;
+	border-radius: .5em;
+	padding: .5em 1em;
+	margin: .5em;
+    background-color: lightgray;
+    border-radius: 0.5em;
+    box-shadow: 0 5px 3px gray;
+    position: relative;
+    top: 0px;
+    transition: background-color 0.2s,
+                border-color 0.2s,
+                top 0.2s,
+                box-shadow 0.2s; 
+}
+
+h1 {
+     text-shadow: .2em .1em silver; 
+}
+
+p em, cite, q, dfn {
+    color: brown;
+}
+
+img {
+    opacity: 0.8;
+}
+
+img[title="undercon"] {
+    opacity: 0.7;
+}
+
+/*.border {
+    border: 1px dotted;
+    border-color: darkslateblue;
+    padding: 1em;
+    margin: 0em;
+}*/
+
+a {
+    text-decoration: none;
+}
+a:link {
+    color: blue;
+}
+/* a:visited {
+    color: purple;
+} */
+a:focus, a:hover {
+    /*color: blue;*/
+    background-color: lightgray;
+    border-color: darkcyan;
+    text-decoration: underline;
+}
+a:active {
+    /*color: violet;
+    background-color: whitesmoke;*/
+    top: 3px;
+}
+
+/*div.gallery {
+  margin: 20px;
+  border: 1px solid yellow;
+  float: left;
+  width: 200px;
+}*/
+
+.img1 {
+    margin-top: 10%;
+}
+
+div#entrees {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+div.gallery {
+    display: flex;
+    flex-direction: column;
+    background-color: lightyellow;
+    margin: 1%;
+    padding: 1em;
+    border: 2px solid lightblue;
+    width: 240px;
+    flex-wrap: wrap;
+    flex: initial;
+    justify-content: center;
+    align-content:center;
+    align-items: stretch;
+}
+
+div.desc {
+    padding: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background: lightgreen;
+    order: -1;
+    align-self:center;
+}
+
+div.gallery img {
+    margin: 10px;
+    opacity: 0.8;
+}
+
+a:hover img, a:focus img {
+    transition: transform 0.3s linear;
+    transform: rotate(-5deg) scale(1.3);
+    box-shadow: 5px 5px 5px gray;
+    opacity: 1;
+}
+
+.clear {
+    clear: left;
+    list-style-type: none;
+    margin-left: 0;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+p {
+    line-height: 120%;
+	color: black;
+}
+
+p.content {
+    text-indent: 10%;
+	
+}
+
+aside {
+    font-style: italic;
+}
+
+footer, sup {
+    font-size: small;
+    font-style: normal;
+    color: darkblue;
+}

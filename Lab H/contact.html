@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+    
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-icon-57x57.png">
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        form{
+            font-style: normal;
+            font-size: 85%;
+            font-weight: 600;
+        }
+        input[type=text], input[type=tel], input[type=email], select, textarea{
+            width: 70%;
+        }
+        .noborder{
+            display: contents;
+        }
+        .main{
+            background-color: rgba(135, 206, 250, 0.5);
+            border-radius: 0.5em;
+        }
+    </style>
+</head>
+
+<body>
+<div>
+<header><h1 id="top"><img src="images/title.jpg" alt="Traditional Thai Recipes" width="800" height="400"><br><br><em>Contact Us</em></h1>
+</header><hr>
+  
+<!--<nav id="topnav">
+<a href="index.html">Home</a> | <a href="index.html#food">Recipes</a> | <a href="technique.html">Cooking techniques</a> | <a href="underconstruction.html">FAQs</a> | <a href="underconstruction.html">About us</a> | <a href="contact.html">Contact us</a> | <a href="underconstruction.html">Site map</a>
+</nav>-->
+    
+<nav>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="index.html#food">Recipes</a></li>
+    <li><a href="technique.html#method">Cooking techniques</a></li>
+    <li><a href="underconstruction.html">FAQs</a></li>
+    <li><a href="underconstruction.html">About us</a></li>
+    <li><a href="contact.html">Contact us</a></li>
+    <li><a href="underconstruction.html">Site map</a></li>
+</ul>
+</nav>
+
+<br><br><p>Every feedback will help us improve the quality to serve you.  Thank you.
+</p>
+    
+<form action="mailto:thanaponwut@hotmail.com" method="POST">
+    
+    <fieldset class="main">
+    <legend>Please fill the form</legend><br>
+    <fieldset class="noborder">
+    <legend>Contact Information</legend>
+    <p style="text-align:right; margin-right: 40%;"><label for="form-name">Name<span style="color: red;">*</span>: </label><input type="text" name="name" placeholder="Your name" id="form-name" maxlength="40" required></p>
+    <p style="text-align:right; margin-right: 40%;"><label for="form-tel">Phone number: </label><input type="tel" name="tel" placeholder="Telephone number" id="form-tel" maxlength="12"></p>
+    <p style="text-align:right; margin-right: 40%;"><label for="form-mail">E-mail<span style="color: red;">*</span>: </label><input type="email" name="email" placeholder="Your email" id="form-mail" required></p>
+    </fieldset><hr>
+    
+    <fieldset class="noborder">
+    <legend>Question</legend>
+    <p style="text-align:right; margin-right: 40%;">Subject<span style="color: red;">*</span>:
+    <select name="subject" size="1">
+    <option value="sc">site content</option>
+    <option value="ft">features</option>
+    <option value="ti">technical issues</option>
+    <option value="rr">request recipe</option>
+    <option value="st">suggestion</option>
+    </select>
+    </p>
+    <p style="text-align:right; margin-right: 40%;">Description<span style="color: red;">*</span>: 
+    <textarea style="resize: none;" name="description" rows="5" cols="30" maxlength="160" id="form-des" placeholder="Maximum 160 characters" required></textarea>
+    </p>
+    </fieldset><hr>
+    
+    <fieldset class="noborder">
+    <legend>Additional Information</legend>
+    <p style="text-align:left;">How do you know our web site:
+    <select style="width: 20%;" name="know-site" size="1">
+    <option value="se" selected>Search engine</option>
+    <option value="fr">Friend</option>
+    <option value="pf">Professor</option>
+    <option value="ot">Others...</option>
+    </select>
+    </p>
+    <p style="text-align:left;">Would you like to submit our mailing list to get new recipes, cooking techniques, and more... 
+    <label><input type="radio" name="submit" value="yes-sub" checked> Yes</label> 
+    <label><input type="radio" name="submit" value="no-sub"> No</label>
+    </p>
+    <p style="text-align:left;">If yes, Please select cetagories to recieve notification:<br><br>
+    <label><input type="checkbox" name="topic" value="news" checked> News letter</label><br>
+    <label><input type="checkbox" name="topic" value="content-update"> Content updates</label><br>
+    <label><input type="checkbox" name="topic" value="promotion"> Special promotion</label><br>
+    </p>
+    </fieldset>
+    </fieldset>
+    <p style="text-align: center;"><input type="submit" value="Send">
+    <input type="reset"></p>
+</form>
+
+</div>
+    
+<nav>
+<p><a href="#top">[Back to top]</a>
+</p>
+</nav> 
+
+<img class="logo" src="images/logo.png" alt="logo">    
+    
+<footer>
+<address><small><b>Contact informarion:</b></small><br>
+<small>Name: <em>Thanapon Wuthisoonthornlert</em></small><br>
+<small>Telephone: <em><a href="tel:+12143045449">+12143045449</a></em></small><br>
+<small>E-mail: <em><a href="mailto:thanaponwut@hotmail.com">Thanaponwut@hotmail.com</a></em></small><br>
+</address>
+<p>
+<small>Copyright <sup>©</sup> 2019 by Thanapon Wuthisoonthornlert, All rights reserved.</small>
+</p>
+</footer>
+  
+</body>
+</html>  
